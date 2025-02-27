@@ -1,0 +1,13 @@
+schemaVersion: 1.1
+endpoints:
+  - name: test-devant-2
+    service:
+      port: 8080
+      basePath: /
+    type: REST
+    displayName: test-devant-2
+    networkVisibilities:
+      - Public
+      - Project
+      - Organization
+    schemaFilePath: swagger.yaml
